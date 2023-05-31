@@ -18374,8 +18374,23 @@
   "RootNamespace": "Examen_TacticaSoft",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Ventas\\Delete.cshtml",
+      "TargetPath": "Pages\\Ventas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Clientes\\Edit.cshtml",
+      "TargetPath": "Pages\\Clientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Clientes\\Create.cshtml",
+      "TargetPath": "Pages\\Clientes\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18384,8 +18399,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Clientes\\Details.cshtml",
+      "TargetPath": "Pages\\Clientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Clientes\\Index.cshtml",
+      "TargetPath": "Pages\\Clientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Clientes\\Delete.cshtml",
+      "TargetPath": "Pages\\Clientes\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18404,8 +18434,53 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Productos\\Details.cshtml",
+      "TargetPath": "Pages\\Productos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Ventas\\Create.cshtml",
+      "TargetPath": "Pages\\Ventas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Productos\\Create.cshtml",
+      "TargetPath": "Pages\\Productos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Productos\\Edit.cshtml",
+      "TargetPath": "Pages\\Productos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Productos\\Delete.cshtml",
+      "TargetPath": "Pages\\Productos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Ventas\\Edit.cshtml",
+      "TargetPath": "Pages\\Ventas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Ventas\\Details.cshtml",
+      "TargetPath": "Pages\\Ventas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Productos\\Index.cshtml",
+      "TargetPath": "Pages\\Productos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\losro\\Desktop\\Examen_TacticaSoft\\Examen_TacticaSoft\\Pages\\Ventas\\Index.cshtml",
+      "TargetPath": "Pages\\Ventas\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,47 @@
+@page
+@model Examen_TacticaSoft._Pages_Clientes.EditModel
+@section scripts{
+<partial name="_ValidationScriptsPartial" />
+}
+
+@{
+    ViewData["Title"] = "Editar Cliente";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h4 class="text-center text-info">Editar Cliente</h4>
+                
+                <form method="post" class="row g-3">
+
+                   <input type="hidden" asp-for="Cliente.Id" />
+                    
+                    <div class="col-md-8">
+                        <label class="form-label" asp-for="Cliente.Nombre">Nombre</label>
+                        <input class="form-control" asp-for="Cliente.Nombre" />
+                        <span class="badge bg-danger" asp-validation-for="Cliente.Nombre" ></span>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <label class="form-label" asp-for="Cliente.Telefono">Telefono</label>
+                        <input class="form-control" asp-for="Cliente.Telefono" />
+                        <span class="badge bg-danger" asp-validation-for="Cliente.Telefono" ></span>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <label class="form-label" asp-for="Cliente.Correo">Email</label>
+                        <input class="form-control" asp-for="Cliente.Correo" />
+                        <span class="badge bg-danger" asp-validation-for="Cliente.Correo" ></span>
+                    </div>
+                                                          
+                    <div >
+                        <input class="btn btn-success btn-sm" type="submit" value="Guardar" />
+                    </div>
+
+                </form>
+        </div>
+    </div>
+    <a asp-page="Index" class="btn btn-primary btn-sm">Volver al listado</a>
+</div>
+

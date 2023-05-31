@@ -1,0 +1,37 @@
+@page
+@model Examen_TacticaSoft._Pages_Clientes.DeleteModel
+
+@{
+    ViewData["Title"] = "Eliminar Cliente";
+}
+
+<div class="container">
+    <h4 class="text-info text-center">Eliminar al Cliente @Html.DisplayFor(x => x.Cliente.Nombre)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliente.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cliente.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliente.Correo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cliente.Correo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cliente.Telefono)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cliente.Telefono)
+        </dd>        
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Cliente.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index" class="btn btn-primary btn-sm">Volver al Listado</a>
+    </form>
+</div>

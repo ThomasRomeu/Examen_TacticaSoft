@@ -7,8 +7,6 @@ namespace Examen_TacticaSoft.Entidades
 {
     public class VentaProducto
     {
-        internal readonly object Ventas;
-
         public int ProductoId { get; set; }
         public int VentaId { get; set; }
         public Producto Producto { get; set; }
