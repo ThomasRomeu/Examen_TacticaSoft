@@ -11,7 +11,7 @@ namespace Examen_TacticaSoft.Entidades
         public string Nombre {get;set;}
         public int Precio {get;set;}
         public string Categoria {get;set;}
-
+        public List<Venta> Ventas { get; set; }
         
     }
 

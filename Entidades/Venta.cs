@@ -13,6 +13,7 @@ namespace Examen_TacticaSoft.Entidades
 
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
+        public List<Producto> Productos { get; set; }
 
         public Venta()
         {
